@@ -5,7 +5,6 @@ import ru.netology.data.MovieItem;
 public class PosterManager {
     private int countFindLast = 5;
     private MovieItem[] movies = new MovieItem[0];
-    private String movieName;
 
     public PosterManager(int findLast) {
         this.countFindLast = findLast;
